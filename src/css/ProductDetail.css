@@ -1,0 +1,65 @@
+.containera{
+	width:100%;
+	height: 600px;
+	display: flex;
+	border-color: 1px solid gray;
+	justify-content: center;
+
+
+}
+.containera .groupdetail{
+	width:55%;
+	height:100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.containera .groupdetail  .ImageProduct,.infoProduct{
+	width:50%;
+	height:100%;
+	
+	display: flex;
+	justify-content: center;
+}
+.containera .groupdetail  .ImageProduct img{
+	width:100%;
+	height:100%;
+}
+.containera .groupdetail .infoProduct .Allinf{
+	width:90%;
+	height:100%;
+	margin-top:5px;
+	}
+.containera .groupdetail  .infoProduct .Allinf .titleProduct{
+	width:100%;
+	height: auto;
+
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.containera .groupdetail  .infoProduct .Allinf .priceProduct{
+	width:100%;
+	height: 5%;
+	padding-top:10px;
+	
+	color:pink;
+	font-size: 14px;
+	font-weight:bold;
+}
+.containera .groupdetail  .infoProduct .Allinf .categoryProduct{
+	width:100%;
+	height: 5%;
+	color:gray;
+	color:#862e2e;
+	font-size: 12px;
+	font-weight:bold;
+	background-color: #cacaca;
+}
+
+.containera .groupdetail  .infoProduct .Allinf .detailProduct{
+	width:100%;
+	height: 50%;
+	overflow: hidden;
+}

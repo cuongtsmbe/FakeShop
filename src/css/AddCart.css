@@ -1,0 +1,11 @@
+.AddCart{
+	height:50px;
+}
+.AddCart button{
+	height:100%;
+	width:250px;
+	box-shadow: 1px 1px pink;
+	background-color: pink;
+	cursor: pointer;
+	font-weight: bold;
+}

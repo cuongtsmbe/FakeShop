@@ -1,0 +1,8 @@
+.ListProducts{
+	width:87%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
